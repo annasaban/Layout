@@ -80,7 +80,7 @@ html {
     z-index: 2;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -30%);
     box-sizing: border-box;
     width: 100%;
     max-width: 500px;
