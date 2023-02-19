@@ -8,7 +8,7 @@ loginButton.addEventListener('click', showPopup);
 
 function showPopup(evt) {
      console.log(evt);
-     evt.preventDefalt();
+     evt.preventDefault();
 
      loginPopUp.classList.toggle('show-popup')
 };
