@@ -199,6 +199,28 @@ em {
     color: rgba(207, 85, 16, 1)
 }
 
+/* students */
+
+.students {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.student {
+    padding-left: 50px;
+}
+
+.student-name {
+    display: block;
+    text-align: center;
+}
+
+.student:nth-child(2n + 3) {
+    background-color: red;
+}
+
 /* footer */
 
 .footer {
