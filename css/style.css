@@ -9,6 +9,14 @@ html {
     margin: 0;
 }
 
+.main-text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+}
+
+
 /* header */
 
 .header {
@@ -107,7 +115,7 @@ html {
     flex-direction: column;
 }
 
-.login-form > input {
+.login-form>input {
     width: 100%;
     max-width: 500px;
     min-height: 55px;
@@ -115,6 +123,7 @@ html {
     border: 1px solid #808080;
 
 }
+
 .login-input {
     width: 444px;
     max-height: 54px;
@@ -125,6 +134,7 @@ html {
     color: #808080;
     padding: 10px;
 }
+
 .login-password {
     width: 444px;
     max-height: 50px;
@@ -135,6 +145,7 @@ html {
     color: #808080;
     padding: 10px;
 }
+
 .popup-button {
     display: flex;
     justify-content: center;
@@ -208,6 +219,7 @@ em {
     justify-content: space-around;
     margin-top: 20px;
 }
+
 .student {
     padding-left: 50px;
 }
@@ -251,6 +263,25 @@ em {
     font-weight: 400;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* contacts */
+
+.text-info {
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.phone-number {
+    margin-top: 24px;
+    text-decoration: underline;
+}
+
+.map-photo {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
 }
 
 /* media */
