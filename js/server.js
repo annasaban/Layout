@@ -1,24 +1,19 @@
-const http = require ('http');
+const http = require('http');
 
-const options = {
-    hostname: 'jsonplaceholder.typicode.com',
-    path: '/posts',
-    method: 'GET'
-}; 
+const host = "localhost";
 
-const req = http.request(options, (res) => {
-    let data = '' 
+// or port 3000
+const port = "8000";
 
-    res.on('data', (chunk) => {
-        data += chunk; 
-});
-    
-    res.on('end', () => {
-        console.log('Body:', JSON.parse(data))
-    })
+// http://localhost:8000
 
-    .on('error', (err) => {
-        console.log('Error', err)
-    }).end();
+const requestListener = function (req, res) {
+    res.writeHead(200);
+    res.end("Hello, server working well!");
+};
+
+const server = http.createServer(requestListener);
+server.listen(port, host, () => {
+    console.log(`Сервер запущен на http://${host}:${port}`)
 });
 
