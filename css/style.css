@@ -227,6 +227,10 @@ em {
     color: rgba(207, 85, 16, 1)
 }
 
+i {
+    color: green;
+}
+
 /* students */
 
 .students {
