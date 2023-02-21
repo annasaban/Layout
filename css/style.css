@@ -190,6 +190,23 @@ html {
     height: 316px;
 }
 
+.my-photo {
+    width: auto;
+    max-width: 257px;
+    height: 386px;
+}
+
+.text-aboutme {
+    width: 100%;
+    max-width: 634px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    float: right; 
+    margin: 0 0 5px 5px; 
+}
+
 .h2 {
     font-family: 'Roboto';
     font-style: normal;
