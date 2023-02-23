@@ -250,9 +250,9 @@ i {
     text-align: center;
 }
 
-.student:nth-child(2n + 3) {
+/* .student:nth-child(2n + 3) {
     background-color: red;
-}
+} */
 
 /* footer */
 
