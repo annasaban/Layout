@@ -26,6 +26,7 @@
         </ul>
         <button class="login-button">Войти</button>
         <div class="login-popup">
+            <img class="popup-close" alt="Закрывающая иконка" src="../img/button.png">
             <h2 class="login-heading">Войти на сайт</h2>
             <form class="login-form">
                 <input class="login-input" name="login" type="text" placeholder="Логин" required>
@@ -36,7 +37,16 @@
     </header>
     <main class="main">
         <h1 class="main-heading">Как нас найти 🗺️</h1>
-        <img class="map-photo" src="../img/map.jpg" height="370px">
+        <div style="position:relative;overflow:hidden;">
+            <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a>
+            <a href="https://yandex.ru/maps/2/saint-petersburg/house/dvortsovaya_ploshchad_2/Z0kYdQZiQUQDQFtjfXV1cXxrZg==/?ll=30.312814%2C59.940082&utm_medium=mapframe&utm_source=maps&z=16.42"
+                style="color:#eee;font-size:12px;position:absolute;top:14px;">Дворцовая площадь, 2 — Яндекс Карты</a>
+            <iframe
+                src="https://yandex.ru/map-widget/v1/?ll=30.312814%2C59.940082&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxODI2OTY1MDAxElHQoNC%2B0YHRgdC40Y8sINCh0LDQvdC60YIt0J%2FQtdGC0LXRgNCx0YPRgNCzLCDQlNCy0L7RgNGG0L7QstCw0Y8g0L%2FQu9C%2B0YnQsNC00YwsIDIiCg2jgPJBFaXCb0I%3D&z=16.42"
+                width="1268" height="370" frameborder="1" allowfullscreen="true" style="position:relative;">
+            </iframe>
+        </div>
         <p class="main-text">Наши контакты</p>
         <p class="text-info">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
         <p class="phone-number">Тел: +7 (812) 555-55-55</p>
